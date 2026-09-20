@@ -1,0 +1,15 @@
+def calcular_promedio(nota1, nota2, nota3):
+    promedio = (nota1 + nota2 + nota3) / 3
+    return promedio
+
+
+nota1 = 8.5
+nota2 = 9.0
+nota3 = 7.5
+
+resultado = calcular_promedio(nota1, nota2, nota3)
+
+print("Nota 1:", nota1)
+print("Nota 2:", nota2)
+print("Nota 3:", nota3)
+print("Promedio final:", resultado)
